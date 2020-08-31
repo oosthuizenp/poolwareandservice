@@ -10,7 +10,7 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Introduction
 
 Poolware and Service carries a complete range of pool and spa chemicals for every situation maintaining crystal clear water all year.
 ## Header 2
@@ -36,13 +36,13 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-#### Header 4
+###  Pool Pumps
 
-*   This is an unordered list following a header.
+*   Kreepy Krawly
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-##### Header 5
+#### Pool Cleaners
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
