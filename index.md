@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Welcome to the best poolware and service site in the *Universe*.
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
@@ -21,7 +23,7 @@ Poolware and Service carries a complete range of pool and spa chemicals for ever
 
 ### Header 3
 
-```js
+``` js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
