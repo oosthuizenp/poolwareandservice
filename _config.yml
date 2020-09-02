@@ -1,5 +1,7 @@
 title: Poolware and Service
 description: Pool Chemicals, Filters, Pumps, Parts & Equipment
-show_downloads: true
 google_analytics:
-theme: jekyll-theme-cayman
+
+sass:
+    style: compressed
+    sass_dir: _assets\css
