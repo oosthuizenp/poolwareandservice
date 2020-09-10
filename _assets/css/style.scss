@@ -15,3 +15,16 @@ $enable-gradients:false;
 
 @import "bootstrap/variables";
 @import "bootstrap";
+
+.hero {
+    background-image: url(/by.the.lake.jpg);
+    height: 50vh;
+    background-size :cover;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+}

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/* font-family: 'Arvo', serif;
+font-family: 'Oswald', sans-serif; */
+
+
+.hero {
+    background-image: url(/by.the.lake.jpg);
+    height: 80vh;
+    background-size :cover;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
