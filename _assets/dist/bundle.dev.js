@@ -12,7 +12,7 @@ require("@fortawesome/fontawesome-free/js/all.js");
 
 require("@fortawesome/fontawesome-free/css/all.css");
 
-require("./site.css");
+require("./css/site.css");
 
 require("./css/style.scss");
 
