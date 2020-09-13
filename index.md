@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Pool Chemicals, Toys, Tools & Equipment
 ---
 
 <a name="Pumps"/>
@@ -7,6 +8,7 @@ layout: default
 <a name="Chloronators">
 
 ## SALTWATER CHLORINATORS
+
 Salt chlorinators generate the chlorine necessary to keep your pool free of bacteria and algae. The chlorinator also produces a small amount of ozone which gives your pool that added sparkle and freshness.
 
 The result is healthier water that looks great and feels great too and you can take comfort in the knowledge that your pool is being sanitized even when you aren’t around.
