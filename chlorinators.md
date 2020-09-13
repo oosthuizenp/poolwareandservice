@@ -28,10 +28,11 @@ We stock a these Clearwater Saltwater Chlorinators, call us for prices.
 |   Clearwater Tri XO Maxi        |  160 000 Litre Pool |
 |   Clearwater Tri XO Midi        |   80 000 Litre Pool |
 |   Clearwater Tri XO Mini        |   50 000 Litre Pool |
-|   Clearwater Ei Classic Midi    |   90 000 Litre Pool 
+|   Clearwater Ei Classic Midi    |   90 000 Litre Pool |
 |   Clearwater Ei Classic Mini    |   60 000 Litre Pool |
 
 <a name="IntelliChlor"/>
+
 ### IntelliChlor /  iChlor Clorinators For Sale
 Manufactured in the USA these items are tried and tested in South Africa. We stock the following Intellichlor Saltwater Chlorinators, call us for prices.
 
@@ -54,4 +55,5 @@ Manufactured in the USA these items are tried and tested in South Africa. We sto
 |Just Chlor|J 200 Standard MK6|100 000 Liters|
 |Just Chlor|J 100 Standard MK6|60 000 Liters|
 
+[Back to Homepage](./)
 
