@@ -1,8 +1,15 @@
+
 body {
+    margin-top: 3em;
     font-family: "Arvo", sans-serif, Roboto, sans-serif, Lato, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Oswald", sans-serif;
 }
 
@@ -34,30 +41,36 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
     background-image: url(/poolware_and_service_clear_pool.png);
-    height: 20vh;
+    height: 25vh;
     background-position: center;
     background-size: cover;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
-.hero-text {
+.hero-title {
+    font-family: "Oswald", sans-serif;
     font-weight: bold;
-    font-size: 3em;
-    color: #033248;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fefefe;
-}
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
 
-.navbar-pas {
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fefefe; */
+}
+/* .hero-middle {
+    font-size: 2em;
+    color: #033248;
+} */
+
+div.navbar-pas {
     background-color: #065a82;
 }
 
-.navbar-pas * {
-    color: #aaa;
-}
 
-.navbar-pas a:hover {
-    color: #fff;
-}
-
+/* Tables */
+.tablelines table, .tablelines td, .tablelines th {
+    border: 1px solid #bbb;
+    padding: 5px;
+    }

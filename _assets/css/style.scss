@@ -3,7 +3,7 @@
 
 $body-color:$gray-900;
 $input-height:calc(#{$input-height-inner} + #{$input-height-border});
-
+$theme-colors: ("primary": #065a82, "secondary":#2f2f30);
 $spacer:1rem;
 $border-width:3px;
 $border-radius:0;
@@ -13,3 +13,4 @@ $enable-gradients:false;
 
 @import "bootstrap/scss/bootstrap";
 @import "bootstrap";
+

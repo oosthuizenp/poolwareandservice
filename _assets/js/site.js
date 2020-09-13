@@ -6,3 +6,10 @@ $(document).on("scroll", function () {
         $("#navigation").removeClass("fixed-top");
     }
 });
+
+
+
+// Shorthand for $( document ).ready()
+$(function() {
+    $('thead').addClass('thead-dark');
+});

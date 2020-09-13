@@ -6,4 +6,8 @@ $(document).on("scroll", function () {
   } else {
     $("#navigation").removeClass("fixed-top");
   }
+}); // Shorthand for $( document ).ready()
+
+$(function () {
+  $('thead').addClass('thead-dark');
 });
