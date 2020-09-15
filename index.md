@@ -1,22 +1,66 @@
 ---
 layout: default
-title: Pool Chemicals, Toys, Tools & Equipment
+title: Poolware and Service Chemicals, Toys, Tools & Equipment
 ---
 
-<a name="Pumps"/>
+{%- include band-primary.html -%}
 
-<a name="Chloronators">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-2"></div>
 
-## SALTWATER CHLORINATORS
+<div class="col-md-5 center-block" markdown="1">
 
-Salt chlorinators generate the chlorine necessary to keep your pool free of bacteria and algae. The chlorinator also produces a small amount of ozone which gives your pool that added sparkle and freshness.
+### Welcome to the Poolware and Service  
 
-The result is healthier water that looks great and feels great too and you can take comfort in the knowledge that your pool is being sanitized even when you aren’t around.
+We have been serving the Upper Highway area of Hillcrest, Kloof, Gillits, Waterfall for more than 20 years. We provide sales, spares, service and the maintenance of swimming pools, spash pools, spas and jacuzzis to help you create those great summer memories keeping pools maintained all year long.
 
-Using chlorine is the proven way of destroying bacteria, viruses and algae in a pool. A salt chlorinator produces its own chlorine when mildly salted water is passed through its electrodes. The level of salt is so low that you can barely taste it. The chlorine dissolves instantly in the pool water, going to work immediately to safely sanitize your pool. Thus eliminating the need for chlorine floaters or granular chlorine products.
+Poolware and Service is the typical local store that owner run and we love to serve. We help you choose the right pool cleaners, pumps, filter and accessories to meet your specific needs. Whether you have a small pool for kids to play and splash around in or a large pool with plenty of swimming area, we have exactly what you are looking for.
 
-### Clearwater Clorinators For Sale
+</div>
 
+
+
+<div class="col-md-3" markdown="1" >
+ 
+<img src="/assets/images/girl.jpg" class="center-block img-responsive img-thumbnail" style="margin-top: 20px; padding:7px  width:280px; height:280px; border-radius: 50%" />
+
+
+</div>
+<div class="col-md-2"></div>
+</div>
+</div>
+
+
+<div class="band-primary container-fluid"> 
+<div class="row">
+<div class="col-md-2"></div>
+
+<div class="col-md-3" markdown="1">
+
+<img src="/assets/images/kid.jpg" class="center-block img-responsive img-thumbnail" style="margin-top: 20px; padding:7px  width:280px; height:280px; border-radius: 50%" />
+
+</div>
+
+<div class="col-md-5" markdown="1" >
+ 
+<a name="Cleaners"/>
+
+## Cleaners
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+</div>
+<div class="col-md-2"></div>
+</div>
+</div>
+
+   
+
+
+{: .tablelines}
 |   MAKE    |   MODEL   |SPECIFICATION  |
 |   ------  |   -------    |    ----------- |
 |   Clearwater  |Tri XO Maxi    |   160 000 L|
@@ -24,56 +68,43 @@ Using chlorine is the proven way of destroying bacteria, viruses and algae in a 
 |   Clearwater  |Tri XO Mini    |50 000 L   |
 |   Clearwater  |Ei Classic Midi    |90 000 L   |
 |   Clearwater  |Ei Classic Mini    |60 000L    |
-{: .tablelines}
-<br>
 
-| 	MAKE	 | 	MODEL	 | 	SPECIFICATION	 |	PRICE	 |
-| 	Clearwater	 | 	Tri XO Maxi   	 | 	160000L	 |	R20 310	 |
-| 	Clearwater	 | 	Tri XO Midi   	 | 	80000L	 |	R16 695	 |
-| 	Clearwater	 | 	Tri XO Mini  	 | 	50000L	 |	R14 715	 |
-| 	Clearwater	 | 	Ei Classic Midi 	 | 	90000L	 |	R10 735	 |
-| 	Clearwater	 | 	Ei Classic Mini 	 | 	60000L	 |	R8 655	 |
-| 	iChlor	 | 	IC30	 | 	100,000L	 |	R10 981	 |
-| 	iChlor	 | 	#REF!	 | 	60000L	 |	R9 185	 |
-| 	Intellichlor	 | 	IC60	 | 	225000L	 |	R21 965	 |
-| 	Intellichlor	 | 	IC40	 | 	170000L	 |	R17 745	 |
-| 	Just Chlor	 | 	J 200 Self Clean MK6	 | 	100000L	 |	R8 495	 |
-| 	Just Chlor	 | 	J 100 Self Clean MK6	 | 	60000L	 |	R6 765	 |
-| 	Just Chlor	 | 	J 200 Standard MK6	 | 	100000L	 |	R5 800	 |
-| 	Just Chlor	 | 	J 100 Standard MK6	 | 	60000L	 |	R4 595	 |
-{: .tablelines}
-
-### Intellichlor Clorinators For Sale
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-8 mx-auto" markdown="1" >
 
 
 
-### Just Chlor Clorinators For Sale
+</div>
+</div>
+</div>
 
-|MAKE|MODEL|SPECIFICATION|
-|:-:|:-|:-|
-|Just Chlor|J 200 Self Clean MK6|100 000 Liters|
-|Just Chlor|J 100 Self Clean MK6|60 000 Liters|
-|Just Chlor|J 200 Standard MK6|100 000 Liters|
-|Just Chlor|J 100 Standard MK6|60 000 Liters|
-{: .tablelines}
-
-
-
-<a name="Cleaners"/>
-## Cleaners
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
+<div class="band-primary container-fluid"> 
+<div class="row row-offcanvas row-offcanvas-left">
+<div class="col-md-8 mx-auto" markdown="1" >
 
 <a name="Filters">
+
 ## Filters
+
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-8 mx-auto" markdown="1" >
 
 <a name="Chemicals"/>
+
 ## Chemicals
+
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-
+</div>
+</div>
+</div>
 
 

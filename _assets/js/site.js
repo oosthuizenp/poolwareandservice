@@ -11,5 +11,5 @@ $(document).on("scroll", function () {
 
 // Shorthand for $( document ).ready()
 $(function() {
-    $('thead').addClass('thead-dark');
+    $('thead').addClass('thead-pas');
 });

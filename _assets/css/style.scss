@@ -5,7 +5,10 @@
 $body-color:$gray-900;
 $input-height:calc(#{$input-height-inner} + #{$input-height-border});
 $theme-colors: (
-    "primary": #065a82, "secondary": #2f2f30);
+    "primary": #575757,     
+    "secondary": #505050,
+    "custom-color": #ff613d
+    );
 $spacer:1rem;
 $border-width:3px;
 $border-radius:0;
