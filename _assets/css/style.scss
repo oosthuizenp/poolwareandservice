@@ -1,9 +1,14 @@
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
 
 $body-color:$gray-900;
 $input-height:calc(#{$input-height-inner} + #{$input-height-border});
-
+$theme-colors: (
+    "primary": #575757,     
+    "secondary": #505050,
+    "custom-color": #ff613d
+    );
 $spacer:1rem;
 $border-width:3px;
 $border-radius:0;
