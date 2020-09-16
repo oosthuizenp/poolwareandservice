@@ -1,11 +1,8 @@
 <div class={{ '"py-5 container-fluid ' | append: class | append: '"'}}>
     <div class="row">
         <div class="col-md-2"></div>
-        <div class="col-md-5">
-            {{ include.left | markdownify }}
-        </div>
-        <div class="col-md-3 text-right">
-            {{ include.right | markdownify }}
+        <div class="col-md-8">
+            {{ include.content | markdownify }}
         </div>
         <div class="col-md-2"></div>
     </div>
