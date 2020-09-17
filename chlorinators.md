@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% capture content_central %}
+
 # SALTWATER CHLORINATORS
 Chlorinators produce their own chlorine through an electrolytic process when the salt water passes through their electrodes. By using low levels of ordinary table salt (NaCl), less than a teaspoon of salt per litre of water these chlorinators generate enough chlorine to keep your pool crystral clear as well as bacteria and algae free. 
 
@@ -22,7 +24,7 @@ Small amounts of ozone are also produced which gives your pool that added sparkl
 ### Clearwater Chlorinators For Sale
 We stock a these Clearwater Saltwater Chlorinators, call us for prices.
 
-{: .table .table-bordered .table-sm .thead-dark}
+{: .tablelines}
 |MAKE & MODEL|SPECIFICATION|
 |-|:-| 
 |Clearwater Tri XO Maxi     | 160 000 Litre Pool |
@@ -36,7 +38,7 @@ We stock a these Clearwater Saltwater Chlorinators, call us for prices.
 ### IntelliChlor /  iChlor Clorinators For Sale
 Manufactured in the USA these items are tried and tested in South Africa. We stock the following Intellichlor Saltwater Chlorinators, call us for prices.
 
-{: .table .table-bordered .table-sm .thead-dark}
+{: .tablelines}
 |MAKE & MODEL|SPECIFICATION|
 |-|:-| 
 |IntelliChlor IC20 | For pools up to 75 000 litres |
@@ -47,7 +49,7 @@ Manufactured in the USA these items are tried and tested in South Africa. We sto
 <a name="JustChlor"/> 
 ### Just Chlor Clorinators For Sale
 
-{: .table .table-bordered .table-sm .thead-dark}
+{: .tablelines}
 |MAKE & MODEL|SPECIFICATION|
 |-|:-| 
 |Just Chlor J 100 Self Clean MK6 | 60 000 Liters  |
@@ -55,4 +57,9 @@ Manufactured in the USA these items are tried and tested in South Africa. We sto
 
 <br>
 [Back to Homepage](./)
+
+{% endcapture %}
+
+{%- include band.html central=content_central -%}
+
 

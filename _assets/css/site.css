@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    padding: 0px !important;
 }
 
 h1,
@@ -41,17 +42,17 @@ h6 {
 
 /* Hero */
 #hero {
-    background-image: url(/poolware_and_service_clear_pool.png);
+    background-image: url(/assets/images/crystal_pools_400h.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .hero-title {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 3rem;
-    color: #fff;
+    font-family: 'Impact', sans-serif;
+    /* font-weight: bold; */
+    /* text-transform: uppercase; */
+    font-size: 4rem;
+    color: #ffc500;
     text-shadow: 1px 1px 1px #000;
     /* -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fefefe; */
@@ -68,7 +69,7 @@ section p {
 
 .thead-pas {
     background-color: #575757;
-    color:#fff;
+    color: #fff;
 }
 
 /* Tables */
@@ -86,6 +87,11 @@ section p {
 }
 
 /* navbar */
+
+.navbar {
+    border-bottom: solid 1px #cecece;
+}
+
 ul.navbar-nav {
     display: flex;
     flex-direction: column;
@@ -94,11 +100,11 @@ ul.navbar-nav {
     font-size: 2em;
 }
 
-ul.navbar-nav >  li {
+ul.navbar-nav>li {
     padding: 6px 0;
 }
 
-ul.navbar-nav >  li a {
+ul.navbar-nav>li a {
     position: relative;
     display: block;
     text-decoration: none;
@@ -106,7 +112,7 @@ ul.navbar-nav >  li a {
     transition: 0.5s;
 }
 
-ul.navbar-nav >  li a::after {
+ul.navbar-nav>li a::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -119,11 +125,107 @@ ul.navbar-nav >  li a::after {
     transform-origin: right;
 }
 
-ul.navbar-nav >  li a:hover {
+ul.navbar-nav>li a:hover {
     color: #95a5a6;
 }
 
-ul.navbar-nav >  li a:hover::after {
+ul.navbar-nav>li a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
 }
+
+/* Carousel */
+.carousel-indicators li {
+    filter: blur(1px,1px,1px,1px);
+    filter: invert(100%)
+}
+
+
+/* Carousel2 */
+* {
+    box-sizing: border-box;
+  }
+  body {
+    padding: 1rem;
+  }
+  
+/* Carousel 3 */
+  .card-body {
+    background:#f8f8f8;
+  }
+  
+  .card-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+  }
+  /* Just for the fallback layout */
+  
+  main {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  article {
+    margin: 1rem 0;
+  }
+  
+  /* Now lets do a Grid-based layout */
+  
+  @supports (display: grid) {
+    main { 
+      max-width: 10000px;
+      margin: 0;
+    }
+    article {
+      margin: 0;
+    }
+    .deals {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 1rem;
+    }
+  }
+    
+  .deals {
+    font-family: Avenir, Roboto, Helvetica, san-serif; 
+    font-size: 80%;
+    color: #000;
+  }
+  .sale-item {
+    display: flex;
+    flex-flow: column;
+    /* border:  1px solid black; */
+    border-radius: 0.5rem;
+    padding: 2rem;
+    background: white;
+  }
+  .sale-item > h4 {
+    margin: 1rem 1rem 0;
+  }
+  .sale-item > ul {
+    margin: 0 0 1rem;
+  }
+  .sale-item > p {
+    margin: 0.25em 1rem 1rem;
+  }
+  .sale-item > img {
+    order: -1;
+    align-self: center;
+  }
+  .sale-item > button {
+    margin-top: auto; 
+    background: #00FFC5;
+    color: black;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+  }
+
+/* band-primary centering test */
+  .services-section img {
+    width: 90px;
+    height: 90px;
+    margin: auto;    
+    display: block;
+}
+

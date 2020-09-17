@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% capture content_central %}
 
 ### HEAT PUMPS
 
@@ -13,3 +14,7 @@ layout: default
 | x |Maximum 75 000 liters|
 
 [Back to Homepage](./)
+
+{% endcapture %}
+
+{%- include band.html central=content_central -%}
