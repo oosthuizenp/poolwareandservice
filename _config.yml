@@ -2,7 +2,7 @@ exclude: [package.json,package-lock.json]
 
 title: Poolware and Service
 description: Pool Chemicals, Filters, Pumps, Parts & Equipment
-google_analytics:
+# google_analytics:
 
 sass:
     style: compressed

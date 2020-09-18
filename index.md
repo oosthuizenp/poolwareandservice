@@ -18,7 +18,7 @@ We have been serving the Upper Highway area of Hillcrest, Kloof, Gillits, Waterf
 {%- include band-primary.html left=content_left right=content_right -%}
 
 {% capture content_left %}
-<img src="/assets/images/pool_cleaners.jpg" class="img-responsive img-thumbnail d-none d-md-block w-100 h-100 mt-5"/>
+<img src="/assets/images/pool_cleaners.jpg" class="img-responsive img-thumbnail d-none d-md-block w-100 h-100 mt-5 rounded-circle"/>
 {% endcapture %}
 
 {% capture content_right %}
@@ -41,7 +41,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 {% endcapture %}
  
 {% capture content_right %}
-<img src="/assets/images/filter.jpg" class="center-block img-responsive img-thumbnail w-100 h-100 mt-5" style="max-width: 280px" />
+<img src="/assets/images/filter.jpg" class="center-block img-responsive img-thumbnail w-100 h-100 mt-5 rounded-circle" style="max-width: 280px" />
 {% endcapture %}
 
 {%- include band-primary.html left=content_left right=content_right -%}
@@ -61,4 +61,4 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 {%- include band-secondary.html left=content_left right=content_right -%}
 
-{%- include carousel3.html -%}
+{%- include carousel.html -%}
