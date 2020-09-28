@@ -42,8 +42,8 @@ This swimming pool pump range is designed for use in smaller pools like splash p
 | Speck BADU Eco Touch 16 | Variable 0.24 kW, 0.50 kW or 0.75 kW - 220V | 50 000 to 85 000 litre pools with a 3 sand bag filter on 0.75 kW |
 
 <a name="superflo"/>
-### SuperFlo
-These high quality self-priming pumps are perfect for the daily filtration of residential swimming pools and are urguably the most used swimming pool pumps in Durban and South Africa.
+### Quality SuperFlo
+These high quality self-priming pumps are perfect for the daily filtration of residential swimming pools.This range of pumps come with a 24-month warranty from date of purchase.
 
 {: .tablelines}
 | MODEL | SPECIFICATION | RECOMMENDED USE | 

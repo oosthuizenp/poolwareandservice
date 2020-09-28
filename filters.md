@@ -19,7 +19,7 @@ layout: default
 
 <br/>
 
-## BADU Filters For Sale
+## BADU Koi Filters For Sale
 
 {: .tablelines}
 | 	MAKE	 | 	MODEL	 | 	SPECIFICATION	 |
@@ -32,14 +32,18 @@ layout: default
 
 <br/>
 
-## Timers for Sale
+## Ecowise Cartridge Filters
 
 {: .tablelines}
 | 	MAKE	 | 	MODEL	 | 	SPECIFICATION	 |
 | 	:-	 | 	:-	 | 	:-	 |
 | 	Ecowise	 | 	Complete with Cartridge	 | 	4 Bag	 |
 | 	Ecowise	 | 	Complete with Cartridge	 | 	3 Bag	 |
-| 	Ecowise	 | 	Complete with Cartridge	 | 	3 Bag	 |
+| 	Ecowise	 | 	Complete with Cartridge	 | 	2 Bag	 |
+
+<br/>
+
+## Jacuzzi / Spa Filters
 
 
 {: .tablelines}
