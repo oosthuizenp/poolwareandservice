@@ -20,7 +20,7 @@ We have been serving the Upper Highway area of Hillcrest, Kloof, Gillitts and Wa
 ----
 
 {% capture content_left %}
-<img src="/assets/images/pool_cleaners.jpg" class="img-responsive img-thumbnail d-none d-md-block w-100 h-100 mt-5 rounded-circle" style="max-width: 280px" />
+<img src="/assets/images/pool_cleaners1.jpg" class="img-responsive img-thumbnail d-none d-md-block w-100 h-100 mt-5 rounded-circle" style="max-width: 280px" />
 {% endcapture %}
 
 {% capture content_right %}
