@@ -4,6 +4,7 @@ title: Poolware and Service Chemicals, Toys, Tools & Equipment
 ---
 
 {% capture content_left %}
+
 ## Welcome to Poolware and Service
 
 <p class="lead">
@@ -17,13 +18,14 @@ We have been serving the Upper Highway area of Hillcrest, Kloof, Gillitts and Wa
 
 {%- include band-primary.html left=content_left right=content_right -%}
 
-----
+---
 
 {% capture content_left %}
-<img src="/assets/images/pool_cleaners1.jpg" class="img-responsive img-thumbnail d-none d-md-block w-100 h-100 mt-5 rounded-circle" style="max-width: 280px" />
+<img src="/assets/images/pool_cleaner.jpg" class="img-responsive img-thumbnail d-none d-md-block w-100 h-100 mt-5 rounded-circle" style="max-width: 280px" />
 {% endcapture %}
 
 {% capture content_right %}
+
 ## Cleaners
 
 <p class="lead">
@@ -31,12 +33,11 @@ We stock a wide range of automatic pool cleaners manufactured by Zodiac, Gemini 
  
 [**Click here to see all pool cleaners**](./pool-cleaners)
 
-
 {% endcapture %}
 
 {%- include band-secondary.html left=content_left right=content_right -%}
 
-****
+---
 
 <!-- {% capture content_left %}
 
@@ -48,7 +49,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 [**Click here to see our Filters**](./filters)
 
 {% endcapture %} -->
- 
+
 <!-- {% capture content_right %}
 <img src="/assets/images/filter.jpg" class="center-block img-responsive img-thumbnail w-100 h-100 mt-5 rounded-circle" style="max-width: 280px" />
 
@@ -57,10 +58,11 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 {%- include band-primary.html left=content_left right=content_right -%} -->
 
 {% capture content_left %}
-<img src="/assets/images/chemicalsr.jpg" class="img-responsive img-thumbnail d-none d-md-block w-100 h-100 mt-5 rounded-circle" style="max-width: 280px"/>
+<img src="/assets/images/chemicals.jpg" class="img-responsive img-thumbnail d-none d-md-block w-100 h-100 mt-5 rounded-circle" style="max-width: 280px"/>
 {% endcapture %}
 
 {% capture content_right %}
+
 ## Chemicals
 
 <p class="lead">
