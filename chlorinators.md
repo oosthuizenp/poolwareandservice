@@ -5,7 +5,7 @@ layout: default
 {% capture content_central %}
 
 # SALTWATER CHLORINATORS
-Chlorinators produce their own chlorine through an electrolytic process when the salt water passes through their electrodes. By using low levels of ordinary table salt (NaCl), less than a teaspoon of salt per litre of water these chlorinators generate enough chlorine to keep your pool crystral clear as well as bacteria and algae free. 
+Chlorinators produce their own chlorine through an electrolytic process when the salt water passes through their electrodes. By using low levels of ordinary table salt (NaCl), less than a teaspoon of salt per litre of water these chlorinators generate enough chlorine to keep your pool crystal clear as well as bacteria and algae free. 
 
 We sell:
 * <a class="nav-link" href="#Clearwater">Clearwater Salt Water Chlorinators</a>
@@ -15,7 +15,7 @@ We sell:
 Small amounts of ozone are also produced which gives your pool that added sparkle and freshness so the result is healthy water that feels and looks amazing. It's comforting to know your pool is being sanitized even when you aren’t around. Here are some pro's to salt chlorination.
 
 * Day in and day out sanitation of your pool
-* Eliminates the purchasing and storage of chlorine amost 100% of the time
+* Eliminates the purchasing and storage of chlorine almost 100% of the time
 * In the long runs saves time and money
 * Makes swimming pool maintenance much easier
 * Reduced odour, stinging eyes, irritated skin and bleached-out swimsuits
