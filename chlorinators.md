@@ -32,8 +32,8 @@ We stock all these Clearwater Saltwater Chlorinators, call us for prices.
 |Clearwater Tri EXO Maxi     | 160 000 Litre Pool |
 |Clearwater Tri EXO Midi     | 80 000 Litre Pool  |
 |Clearwater Tri EXO Mini     | 50 000 Litre Pool  |
-|Clearwater Ei Classic Midi | 90 000 Litre Pool  |
-|Clearwater Ei Classic Mini | 60 000 Litre Pool  |
+|Clearwater Ei Classic Midi  | 90 000 Litre Pool  |
+|Clearwater Ei Classic Mini  | 60 000 Litre Pool  |
 
 <br>
 
