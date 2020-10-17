@@ -38,7 +38,7 @@ We sell:
 {: .tablelines}
 |Make / Model|Suitable for Pool Sizes|Available As|
 |-|:-|:-|
-|Gemini Twinsweep | 40,000 and up | Any size pool |
+|Gemini Twinsweep | 40,000 and up | Combi Pack or Head only |
 
 <br>
 
