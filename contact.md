@@ -9,7 +9,7 @@ layout: default
 ## Give us a Call or Send Us an E-Mail
 
 * <a href="+27317654003"><b>Call: </b>031 765 4003</a>
-* <a href="mailto:info@poolwareandservice.co.za?subject = Contact Enquiry"><b>E-Mail: </b>info@poolwareandservice.co.za<</a>
+* <a href="mailto:info@poolwareandservice.co.za?subject = Website Enquiry"><b>E-Mail: </b>info@poolwareandservice.co.za</a>
 
 ## Visit our Store
 
@@ -35,7 +35,7 @@ See the map below for directions.
       <div class="col-md-6">
         <div class="float-right" style="width: 100%">
           <iframe 
-            width="100%" 
+            width="600" 
             height="400" 
             frameborder="2" 
             scrolling="no" 
