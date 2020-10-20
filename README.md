@@ -4,8 +4,6 @@
 
 *Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/cayman), or even [use it today](#usage).*
 
-![Thumbnail of Cayman](thumbnail.png)
-
 ## Usage
 
 To use the Cayman theme:
@@ -106,3 +104,9 @@ If you'd like to preview the theme locally (for example, in the process of propo
 ### Running tests
 
 The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
+
+
+### Running | 2 Terminals
+
+1. npm run bundle
+2. jekyll serve
