@@ -68,9 +68,9 @@ We stock a wide range of automatic pool cleaners manufactured by Zodiac, Gemini 
 
 <p class="lead">We stock a wide range of chemicals that include, chlorine, stabilizers, algaecide, pool acid, soda ash, bi-carbonate of soda, alum-powder, calcium chloride.</p>
 <br />
-<!-- <a href="tel:+27317654003" class="badge badge-custom-color"><span class="icon">
+<!-- <a href="tel:+273" class="badge badge-custom-color"><span class="icon">
 <i class="fas fa-phone-square mr-2"></i>
-</span>Call Us For More Information: 031 765 4003</a> -->
+</span>Call Us For More Information: 064 077 1739</a> -->
 
 {% endcapture %}
 
