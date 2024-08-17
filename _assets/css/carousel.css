@@ -1,0 +1,4 @@
+.carousel-indicators li {
+  filter: blur(1px, 1px, 1px, 1px);
+  filter: invert(100%);
+}

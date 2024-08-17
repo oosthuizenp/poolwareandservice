@@ -2,19 +2,39 @@
 
 var path = require('path');
 
+var webpack = require('webpack');
+
 var TerserJSPlugin = require('terser-webpack-plugin');
 
 var MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-var OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+var CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
   mode: 'production',
+  stats: {
+    all: false,
+    warnings: true,
+    errors: true,
+    timings: true,
+    modules: true,
+    logging: 'verbose',
+    loggingTrace: true
+  },
   performance: {
     hints: false
   },
   optimization: {
-    minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})]
+    minimizer: [new TerserJSPlugin({}), new CssMinimizerPlugin()],
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all'
+        }
+      }
+    }
   },
   plugins: [new MiniCssExtractPlugin({
     filename: 'bundle.css',
@@ -23,24 +43,37 @@ module.exports = {
   entry: './_assets/bundle.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'assets')
+    path: path.resolve(__dirname, 'assets'),
+    assetModuleFilename: 'assets/[name][ext][query]' // Configure asset filenames
+
   },
   module: {
     rules: [{
       test: /\.css$/,
-      use: [MiniCssExtractPlugin.loader, 'css-loader']
+      use: [MiniCssExtractPlugin.loader, 'style-loader', 'css-loader', 'sass-loader']
     }, {
       test: /\.s[ac]ss$/i,
-      use: [// Creates `style` nodes from JS strings
-      'style-loader', // Translates CSS into CommonJS
-      'css-loader', // Compiles Sass to CSS
-      'sass-loader']
+      use: [MiniCssExtractPlugin.loader, // Extracts CSS into separate files
+      'css-loader', // Translates CSS into CommonJS
+      'sass-loader' // Compiles Sass to CSS
+      ]
     }, {
       test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-      loader: "url-loader?limit=10000&mimetype=application/font-woff"
+      type: 'asset/inline',
+      // Inline small font files
+      parser: {
+        dataUrlCondition: {
+          maxSize: 10 * 1024 // Limit to 10kb
+
+        }
+      }
     }, {
       test: /\.(ttf|eot|svg|jpg|png)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-      loader: "file-loader"
+      type: 'asset/resource',
+      // Use separate files for larger assets
+      generator: {
+        filename: 'assets/[name][ext][query]'
+      }
     }]
   }
 };

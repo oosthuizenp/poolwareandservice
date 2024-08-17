@@ -1,0 +1,58 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 0px !important;
+  margin: 0; /* Remove any default margins */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', 'Vollkorn', serif;
+}
+
+/* General styles for all content sections */
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  background-color: white;
+}
+
+/* Tables */
+.thead-pas {
+  background-color: #575757;
+  color: #fff;
+}
+
+.tablelines table,
+.tablelines td,
+.tablelines th {
+  border: 1px solid #bbb;
+  padding: 5px;
+}
+
+/* Fallback layout */
+main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+article {
+  margin: 1rem 0;
+}
+
+/* Grid-based layout */
+@supports (display: grid) {
+  main {
+    max-width: 10000px;
+    margin: 0;
+  }
+
+  article {
+    margin: 0;
+  }
+
+  .deals {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+}

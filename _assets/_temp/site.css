@@ -13,6 +13,12 @@ h6 {
 
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 #header-gradient {
   height: 1em;
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
@@ -30,10 +36,70 @@ h6 {
 
 
 /* Hero */
-#hero {
-  background-image: url(/assets/images/crystal-clean-pool-hero.jpg);
-  background-position: center;
+./* HERO SECTION */
+.hero {
+  position: relative;
+  /* width: 100%; */
+  height: 40vh;
+  background-image: cover;
+  color: #fff;
+  background-color: #111;
+  min-height: 550px;
+  padding: 0;
   background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment: fixed;
+
+}
+
+.intro h1,
+.intro h2,
+.intro h3,
+.intro p {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  font-family: "Montserrat";
+}
+
+.intro p {
+  font-size: 1.35rem;
+}
+
+.logo {
+  height: 80px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 10;
+}
+
+@media (max-width: 767.98px) {
+  .content {
+    position: relative;
+    padding: 80px 0;
+    top: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+body {
+  margin: 0; /* Remove any default margins */
+}
+
+.content {
+  position: relative; /* To ensure it layers over the hero */
+  z-index: 1; /* Content layers above the hero */
+  padding: 20px; /* Add some padding for readability */
+  background-color: white; /* Make sure content is readable */
 }
 
 .hero-title {
@@ -53,53 +119,88 @@ h6 {
   text-align: left;
 }
 
-/* NAVBAR */
 
+/* Navbar styles */
 .navbar {
-  border-bottom: solid 1px #cecece;
+  border-bottom: solid 1px #e0e0e0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure positioning context for child elements */
 }
 
-ul.navbar-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  list-style-type: none;
-  font-size: 1.3rem;
-}
-
-ul.navbar-nav>li {
-  padding: 6px 0;
-}
-
-ul.navbar-nav>li a {
-  position: relative;
-  display: block;
-  text-decoration: none;
-  padding: 4px 0;
-  transition: 0.5s;
-}
-
-ul.navbar-nav>li a::after {
+/* Navbar toggle button (hamburger menu) */
+.navbar-toggler {
+  display: none; /* Hide by default */
   position: absolute;
-  content: "";
-  width: 100%;
+  top: 15px;
+  right: 15px; /* Position on the right with some margin */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-toggler-icon {
+  display: block;
+  width: 30px;
   height: 3px;
-  top: 100%;
+  background-color: #333;
+  position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  position: absolute;
   left: 0;
-  background: #00FFC5;
-  transition: transform 0.5s;
-  transform: scaleX(0);
-  transform-origin: right;
 }
 
-ul.navbar-nav>li a:hover {
-  color: #9ed9df;
+.navbar-toggler-icon::before {
+  top: -10px;
 }
 
-ul.navbar-nav>li a:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
+.navbar-toggler-icon::after {
+  top: 10px;
 }
+
+/* Adjust for mobile */
+@media (max-width: 768px) {
+  ul.navbar-nav {
+    display: none; /* Hide menu items by default */
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    position: absolute;
+    top: 60px; /* Adjust top position if needed */
+    left: 0;
+    background-color: #ffffff;
+    border-top: solid 1px #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  ul.navbar-nav.show {
+    display: flex; /* Show menu when toggled */
+  }
+
+  .navbar-toggler {
+    display: block; /* Show the hamburger menu */
+  }
+}
+
+/* Optional: Adjust navbar item styling for mobile */
+@media (max-width: 768px) {
+  ul.navbar-nav>li {
+    padding: 10px 15px; /* Increase padding for better touch targets */
+  }
+
+  ul.navbar-nav>li a {
+    font-size: 1.1rem; /* Adjust font size if needed */
+  }
+}
+
 
 /* TABLES */
 .thead-pas {

@@ -9,6 +9,7 @@ layout: default
 ## Give us a Call or Send Us an E-Mail
 
 * <a href="+27640771739"><b>Call: </b>064 077 1739</a>
+* <a href="+27317654003"><b>Call: </b>031 765 4003</a>
 * <a href="mailto:info@poolware.co.za?subject = Website Enquiry"><b>E-Mail: </b>info@poolware.co.za</a>
 
 ## Visit our Store

@@ -1,6 +1,15 @@
+
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
+
+@import "base";
+@import "hero";
+@import "navbar";
+@import "carousel";
+@import "cards";
+@import "grid";
+@import "footer";
 
 $body-color:$gray-900;
 $input-height:calc(#{$input-height-inner} + #{$input-height-border});

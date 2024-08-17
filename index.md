@@ -5,15 +5,32 @@ title: Poolware and Service Chemicals, Toys, Tools & Equipment
 
 {% capture content_left %}
 
-## Welcome to Poolware and Service
+#### Welcome to Poolware and Service
 
 <p class="lead">
-We have been offering pool services to the Upper Highway area of Hillcrest, Kloof, Gillitts and Waterfall for more than 20 years providing sales, spares, service, repairs and advice on the maintenance on swimming pools, splash pools. Helping pools look sparkling clean to create those great summer memories all year long.
+We are a specialist swimming pool wholesaler
+and retailer of all the related products to
+maintain, renovate or construct your “dream”
+swimming pool and spa.
+Our Hillcrest shop has proudly been part of the
+Upper Highway community for over 20 years,
+sharing our expertise with pool owners in
+Kloof, Gillitts and Waterfall.
+Now part of Hyper Pool Group, we look
+forward to introducing our customers to new
+and exciting products from all the leading
+brands of swimming pool products, including
+our industry leading Aqua King and Eartheco
+ranges.
 </p>
 {% endcapture %}
  
 {% capture content_right %}
-<img src="/assets/images/kids-in-pool.jpg" class="center-block img-responsive img-thumbnail w-100 h-100 rounded-circle mt-5" style="max-width: 280px" />
+
+<img src="/assets/images/kids-in-pool.jpg" 
+     style="width: 320px; height: 320px; object-fit: cover; display: block; margin: 0 auto;" 
+     alt="Kids in pool" />
+
 {% endcapture %}
 
 {%- include band-primary.html left=content_left right=content_right -%}
